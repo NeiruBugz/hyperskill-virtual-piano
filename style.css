@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    background-color: green;
+    text-align: center;
+}
+.container {
+    margin: 10% auto;
+}
+
+kbd {
+    position: relative;
+    height: 120px;
+    width: 40px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.black-keys kbd {
+    bottom: 100px;
+    width: 20px;
+    height: 60px;
+    background-color: #000;
+    color: white;
+}
